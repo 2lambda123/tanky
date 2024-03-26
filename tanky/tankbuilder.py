@@ -30,5 +30,5 @@ if __name__ == '__main__':
     try:
         subprocess.call('clear')
     except OSError:
-        subprocess.call('cls', shell=True)
+        subprocess.call('cls', shell=False)
     main()
